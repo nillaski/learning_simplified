@@ -1,4 +1,5 @@
 const express = require('express');
+const connection = require('../utils/connection');
 const router = express.Router();
 
 // User registration
